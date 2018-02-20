@@ -4,7 +4,7 @@ Brief descriptions of the directories in this folder:
 
 <b>vb_datacollection</b>
 1. vbscraper.py - This contains a Python Script (.py) executed on an AWS instance to obtain Valencia's bike-share (ValenBisi) data from Valencias Open Data Website.
-2. valenbisi_scraper.ipynb - The backbone to vbscraper.py, commented in both English and Spanish for members to see how we collected data in a hands-on way. This is compatible with Jupyter Notebook.<br>
+2. valenbisi_scraper.ipynb - The backbone to vbscraper.py, commented in both English and Spanish for members to see how we collected data in a hands-on way. This is compatible with Jupyter Notebook.<br><Br>
 *** Request for access to API key: 16/02/2018 ***
 
 <b>analysis</b>
