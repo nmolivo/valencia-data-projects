@@ -2,13 +2,19 @@ import pandas as pd
 import requests
 import json
 from time import sleep
+from uuid import uuid4 as uuid
 
 counter = 0
 
-while counter < 672:
+while counter < 1000:
     if counter % 8 == 0:
         print(counter)
-    r = requests.get("http://mapas.valencia.es/lanzadera/opendata/Valenbisi/JSON")
+    try:
+        r = requests.get("http://mapas.valencia.es/lanzadera/opendata/Valenbisi/JSON", headers={"User-agent": str(uuid())})
+    except Exception as e:
+        print(e)
+        sleep(15*60)
+        continue
     if r.status_code != 200:
         sleep(15*60)
         continue #sends to the front of the loop without adding to counter
