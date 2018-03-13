@@ -13,7 +13,7 @@ Brief descriptions of the directories in this folder:
 3. 02_arima.ipynb - Autoregressive Integrated Moving Average Model
 4. 03_feateng - varables for distance to CRIDA activities, hour, available per 15 minutes, available per hour
 
-<b>vb_data</b><br>
-Repository for storing datasets.<br><br>
+<b>vb_data</b>
+Repository for storing datasets.
 This analysis was conducted with only station data. No data on rebalancing activity or individual bike rides were used.<br>
 All data for this project was used for non-commercial purposes.
