@@ -17,3 +17,7 @@ Brief descriptions of the directories in this folder:
 Repository for storing datasets.
 This analysis was conducted with only station data. No data on rebalancing activity or individual bike rides were used.<br>
 All data for this project was used for non-commercial purposes.
+
+<p><br> Source of data: <br/> <a href="http://www.valencia.es/datosabiertos"> http://www.valencia.es/datosabiertos </a> <br> <p><br>
+
+This data was not used for commercial purposes.
