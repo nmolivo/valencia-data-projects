@@ -7,7 +7,13 @@ Brief descriptions of the directories in this folder:
 2. valenbisi_scraper.ipynb - The backbone to vbscraper.py, commented in both English and Spanish for members to see how we collected data in a hands-on way. This is compatible with Jupyter Notebook.<br><Br>
 *** Request for access to API key: 16/02/2018 ***
 
-<b>analysis</b>
-1. vb_eda.ipynb - We combine all data collected from our vbscraper.py and walk through ways to examine our data.
-2. vb_ntwk.ipynb - We conduct network analysis on our data
-3. 
+<b>vb_analysis</b>
+1. 00_dataconcat.ipynb - We combine all data collected from our vbscraper.py
+2. 01_eda.ipynb - Exploratory Data Analysis
+3. 02_arima.ipynb - Autoregressive Integrated Moving Average Model
+4. 03_feateng - varables for distance to CRIDA activities, hour, available per 15 minutes, available per hour
+
+<b>vb_data</b>
+Repository for storing datasets.
+This analysis was conducted with only station data. No data on rebalancing activity or individual bike rides were used.<br>
+All data for this project was used for non-commercial purposes.
