@@ -1,5 +1,5 @@
 # Using the city of Valencia's Open Data
-The materials in this folder are created and used by Natalie Olivo and Nicole Eickhoff during their data-vacation where they present their code and findings to the attendees of the Valencia Big Data Meetup [URL] at X location at Y time on ZZ/03/2018.
+The materials in this folder are created and used by Natalie Olivo and Nicole Eickhoff during their data-vacation where they present their code and findings to the attendees of the <a href = "https://www.meetup.com/Valencia-Data-Science/">Valencia Big Data Meetup</a> at on 13/03/2018.
 Brief descriptions of the directories in this folder:
 
 <b>vb_datacollection</b>
